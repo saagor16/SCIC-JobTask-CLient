@@ -1,0 +1,612 @@
+[
+  {
+    "name": "Galaxy Z Fold 5",
+    "image": "https://unsplash.com/photos/person-holding-white-android-smartphone-sPxk3zxpQ08",
+    "description": "Foldable smartphone with a 7.6-inch AMOLED display and Snapdragon 8 Gen 2.",
+    "price": 190000,
+    "category": "Mobile Phone",
+    "brand": "Samsung",
+    "ratings": 4.9,
+    "createdAt": "2024-08-16T14:00:00Z"
+  },
+  {
+    "name": "Pixel Buds Pro",
+    "image": "https://example.com/images/pixelbudspro.jpg",
+    "description": "Wireless earbuds with active noise cancellation and Google Assistant integration.",
+    "price": 15000,
+    "category": "Headphone",
+    "brand": "Google",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T09:30:00Z"
+  },
+  {
+    "name": "LG Gram 17",
+    "image": "https://example.com/images/lggram17.jpg",
+    "description": "Lightweight 17-inch laptop with Intel Core i7 and 1TB SSD.",
+    "price": 200000,
+    "category": "Laptop",
+    "brand": "LG",
+    "ratings": 4.7,
+    "createdAt": "2024-08-05T12:00:00Z"
+  },
+  {
+    "name": "Sony A7R V",
+    "image": "https://example.com/images/sonya7rv.jpg",
+    "description": "High-resolution full-frame mirrorless camera with 61MP sensor and 8K video.",
+    "price": 400000,
+    "category": "Camera",
+    "brand": "Sony",
+    "ratings": 4.9,
+    "createdAt": "2024-08-07T10:00:00Z"
+  },
+  {
+    "name": "Bose QuietComfort Earbuds",
+    "image": "https://example.com/images/bosequietcomfort.jpg",
+    "description": "True wireless earbuds with excellent noise cancellation and comfortable fit.",
+    "price": 25000,
+    "category": "Headphone",
+    "brand": "Bose",
+    "ratings": 4.8,
+    "createdAt": "2024-08-02T15:00:00Z"
+  },
+  {
+    "name": "Apple Watch Series 8",
+    "image": "https://example.com/images/applewatch8.jpg",
+    "description": "Smartwatch with advanced health features and fitness tracking.",
+    "price": 45000,
+    "category": "Wearable",
+    "brand": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-12T11:00:00Z"
+  },
+  {
+    "name": "Dell XPS 13",
+    "image": "https://example.com/images/dellxps13.jpg",
+    "description": "Ultra-thin laptop with Intel Core i7 and 512GB SSD.",
+    "price": 160000,
+    "category": "Laptop",
+    "brand": "Dell",
+    "ratings": 4.8,
+    "createdAt": "2024-08-06T13:00:00Z"
+  },
+  {
+    "name": "Samsung QLED TV",
+    "image": "https://example.com/images/samsungqled.jpg",
+    "description": "4K QLED TV with vibrant colors and HDR support.",
+    "price": 120000,
+    "category": "Television",
+    "brand": "Samsung",
+    "ratings": 4.7,
+    "createdAt": "2024-08-09T16:00:00Z"
+  },
+  {
+    "name": "Nikon D850",
+    "image": "https://example.com/images/nikond850.jpg",
+    "description": "Full-frame DSLR camera with 45.7MP resolution and 4K video.",
+    "price": 280000,
+    "category": "Camera",
+    "brand": "Nikon",
+    "ratings": 4.8,
+    "createdAt": "2024-08-11T18:00:00Z"
+  },
+  {
+    "name": "Amazon Echo Studio",
+    "image": "https://example.com/images/echostudio.jpg",
+    "description": "Smart speaker with high-fidelity sound and Alexa integration.",
+    "price": 22000,
+    "category": "Speaker",
+    "brand": "Amazon",
+    "ratings": 4.7,
+    "createdAt": "2024-08-14T08:00:00Z"
+  },
+  {
+    "name": "Fitbit Charge 5",
+    "image": "https://example.com/images/fitbitcharge5.jpg",
+    "description": "Fitness tracker with GPS, heart rate monitoring, and long battery life.",
+    "price": 12000,
+    "category": "Wearable",
+    "brand": "Fitbit",
+    "ratings": 4.6,
+    "createdAt": "2024-08-15T10:00:00Z"
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "image": "https://example.com/images/sonywh1000xm5.jpg",
+    "description": "Noise-canceling over-ear headphones with superior sound quality.",
+    "price": 30000,
+    "category": "Headphone",
+    "brand": "Sony",
+    "ratings": 4.9,
+    "createdAt": "2024-08-13T12:00:00Z"
+  },
+  {
+    "name": "Microsoft Surface Pro 9",
+    "image": "https://example.com/images/surfacepro9.jpg",
+    "description": "2-in-1 laptop with detachable keyboard and Intel Core i7.",
+    "price": 180000,
+    "category": "Laptop",
+    "brand": "Microsoft",
+    "ratings": 4.8,
+    "createdAt": "2024-08-17T09:00:00Z"
+  },
+  {
+    "name": "Oculus Quest 2",
+    "image": "https://example.com/images/oculusquest2.jpg",
+    "description": "Standalone VR headset with immersive virtual reality experiences.",
+    "price": 35000,
+    "category": "VR Headset",
+    "brand": "Oculus",
+    "ratings": 4.7,
+    "createdAt": "2024-08-04T14:00:00Z"
+  },
+  {
+    "name": "Bose SoundLink Revolve+",
+    "image": "https://example.com/images/bosesoundlinkrevolve.jpg",
+    "description": "Portable Bluetooth speaker with 360-degree sound.",
+    "price": 20000,
+    "category": "Speaker",
+    "brand": "Bose",
+    "ratings": 4.8,
+    "createdAt": "2024-08-03T17:00:00Z"
+  },
+  {
+    "name": "GoPro HERO11 Black",
+    "image": "https://example.com/images/goprohero11black.jpg",
+    "description": "Action camera with 5.3K video recording and HyperSmooth stabilization.",
+    "price": 40000,
+    "category": "Camera",
+    "brand": "GoPro",
+    "ratings": 4.9,
+    "createdAt": "2024-08-08T11:00:00Z"
+  },
+  {
+    "name": "Apple MacBook Air M2",
+    "image": "https://example.com/images/macbookairm2.jpg",
+    "description": "Thin and light laptop with Apple's M2 chip and 256GB SSD.",
+    "price": 150000,
+    "category": "Laptop",
+    "brand": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-01T12:00:00Z"
+  },
+  {
+    "name": "Jabra Elite 85t",
+    "image": "https://example.com/images/jabraelite85t.jpg",
+    "description": "True wireless earbuds with adjustable ANC and excellent sound quality.",
+    "price": 22000,
+    "category": "Headphone",
+    "brand": "Jabra",
+    "ratings": 4.8,
+    "createdAt": "2024-08-12T15:00:00Z"
+  },
+  {
+    "name": "Samsung Galaxy Tab S9",
+    "image": "https://example.com/images/galaxytabs9.jpg",
+    "description": "High-performance tablet with AMOLED display and S Pen support.",
+    "price": 75000,
+    "category": "Tablet",
+    "brand": "Samsung",
+    "ratings": 4.7,
+    "createdAt": "2024-08-09T13:00:00Z"
+  },
+  {
+    "name": "Epson EcoTank ET-2760",
+    "image": "https://example.com/images/epson2760.jpg",
+    "description": "All-in-one printer with refillable ink tanks and wireless connectivity.",
+    "price": 12000,
+    "category": "Printer",
+    "brand": "Epson",
+    "ratings": 4.6,
+    "createdAt": "2024-08-06T16:00:00Z"
+  },
+  {
+    "name": "Lenovo Yoga 9i",
+    "image": "https://example.com/images/lenovoyoga9i.jpg",
+    "description": "Convertible laptop with 14-inch 4K display and Intel Core i7.",
+    "price": 170000,
+    "category": "Laptop",
+    "brand": "Lenovo",
+    "ratings": 4.7,
+    "createdAt": "2024-08-07T11:00:00Z"
+  },
+  {
+    "name": "Apple iPad Pro 11",
+    "image": "https://example.com/images/ipadpro11.jpg",
+    "description": "11-inch tablet with Apple M1 chip and ProMotion technology.",
+    "price": 90000,
+    "category": "Tablet",
+    "brand": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-13T14:00:00Z"
+  },
+  {
+    "name": "Acer Predator Helios 300",
+    "image": "https://example.com/images/predatorhelios300.jpg",
+    "description": "Gaming laptop with Intel Core i7, RTX 3060 GPU, and high refresh rate display.",
+    "price": 150000,
+    "category": "Laptop",
+    "brand": "Acer",
+    "ratings": 4.8,
+    "createdAt": "2024-08-11T10:00:00Z"
+  },
+  {
+    "name": "Huawei MatePad Pro",
+    "image": "https://example.com/images/matepadpro.jpg",
+    "description": "Tablet with Kirin 9000 chip and magnetic keyboard support.",
+    "price": 85000,
+    "category": "Tablet",
+    "brand": "Huawei",
+    "ratings": 4.7,
+    "createdAt": "2024-08-04T12:00:00Z"
+  },
+  {
+    "name": "Philips Hue White and Color Ambiance",
+    "image": "https://example.com/images/philips_hue.jpg",
+    "description": "Smart LED bulbs with color-changing capabilities and app control.",
+    "price": 15000,
+    "category": "Smart Home",
+    "brand": "Philips",
+    "ratings": 4.6,
+    "createdAt": "2024-08-02T09:00:00Z"
+  },
+  {
+    "name": "Logitech MX Master 3",
+    "image": "https://example.com/images/logitechmxmaster3.jpg",
+    "description": "Ergonomic wireless mouse with customizable buttons and precision tracking.",
+    "price": 12000,
+    "category": "Accessory",
+    "brand": "Logitech",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T14:00:00Z"
+  },
+  {
+    "name": "Razer BlackWidow V3",
+    "image": "https://example.com/images/razerblackwidowv3.jpg",
+    "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+    "price": 16000,
+    "category": "Accessory",
+    "brand": "Razer",
+    "ratings": 4.7,
+    "createdAt": "2024-08-01T16:00:00Z"
+  },
+  {
+    "name": "Sonos One",
+    "image": "https://example.com/images/sonosone.jpg",
+    "description": "Smart speaker with rich sound and voice assistant support.",
+    "price": 19000,
+    "category": "Speaker",
+    "brand": "Sonos",
+    "ratings": 4.8,
+    "createdAt": "2024-08-15T12:00:00Z"
+  },
+  {
+    "name": "HP Spectre x360",
+    "image": "https://example.com/images/hpspectrex360.jpg",
+    "description": "Convertible laptop with Intel Core i7, 16GB RAM, and 1TB SSD.",
+    "price": 180000,
+    "category": "Laptop",
+    "brand": "HP",
+    "ratings": 4.9,
+    "createdAt": "2024-08-08T10:00:00Z"
+  },
+  {
+    "name": "Dell Inspiron 15",
+    "image": "https://example.com/images/dellinspiron15.jpg",
+    "description": "15-inch laptop with Intel Core i5 and 512GB SSD.",
+    "price": 100000,
+    "category": "Laptop",
+    "brand": "Dell",
+    "ratings": 4.6,
+    "createdAt": "2024-08-13T09:00:00Z"
+  },
+  {
+    "name": "Amazon Kindle Paperwhite",
+    "image": "https://example.com/images/kindlepaperwhite.jpg",
+    "description": "E-reader with a high-resolution display and waterproof design.",
+    "price": 12000,
+    "category": "E-reader",
+    "brand": "Amazon",
+    "ratings": 4.8,
+    "createdAt": "2024-08-11T11:00:00Z"
+  },
+  {
+    "name": "JBL Charge 5",
+    "image": "https://example.com/images/jblcharge5.jpg",
+    "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+    "price": 20000,
+    "category": "Speaker",
+    "brand": "JBL",
+    "ratings": 4.7,
+    "createdAt": "2024-08-16T14:00:00Z"
+  },
+  {
+    "name": "ASUS ROG Zephyrus G14",
+    "image": "https://example.com/images/rogzephyrusg14.jpg",
+    "description": "Gaming laptop with AMD Ryzen 9 and NVIDIA RTX 3060.",
+    "price": 200000,
+    "category": "Laptop",
+    "brand": "ASUS",
+    "ratings": 4.8,
+    "createdAt": "2024-08-07T13:00:00Z"
+  },
+  {
+    "name": "Mac Mini M2",
+    "image": "https://example.com/images/macminim2.jpg",
+    "description": "Compact desktop with Apple's M2 chip and 512GB SSD.",
+    "price": 130000,
+    "category": "Desktop",
+    "brand": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-02T12:00:00Z"
+  },
+  {
+    "name": "Roku Streaming Stick 4K",
+    "image": "https://example.com/images/rokustick4k.jpg",
+    "description": "Streaming device with 4K HDR support and voice remote.",
+    "price": 8000,
+    "category": "Streaming Device",
+    "brand": "Roku",
+    "ratings": 4.8,
+    "createdAt": "2024-08-14T09:00:00Z"
+  },
+  {
+    "name": "Corsair Vengeance LPX 16GB",
+    "image": "https://example.com/images/corsairvengeance.jpg",
+    "description": "16GB DDR4 RAM with high performance and overclocking support.",
+    "price": 8000,
+    "category": "Computer Component",
+    "brand": "Corsair",
+    "ratings": 4.7,
+    "createdAt": "2024-08-09T11:00:00Z"
+  },
+  {
+    "name": "WD My Passport 1TB",
+    "image": "https://example.com/images/wdpassport1tb.jpg",
+    "description": "Portable external hard drive with 1TB capacity and password protection.",
+    "price": 7000,
+    "category": "Storage",
+    "brand": "Western Digital",
+    "ratings": 4.6,
+    "createdAt": "2024-08-10T10:00:00Z"
+  },
+  {
+    "name": "Google Nest Hub",
+    "image": "https://example.com/images/googlenesthub.jpg",
+    "description": "Smart display with Google Assistant and home automation control.",
+    "price": 12000,
+    "category": "Smart Home",
+    "brand": "Google",
+    "ratings": 4.7,
+    "createdAt": "2024-08-12T16:00:00Z"
+  },
+  {
+    "name": "Sony WH-XB910N",
+    "image": "https://example.com/images/sonywhxb910n.jpg",
+    "description": "Extra bass noise-canceling headphones with long battery life.",
+    "price": 30000,
+    "category": "Headphone",
+    "brand": "Sony",
+    "ratings": 4.8,
+    "createdAt": "2024-08-15T12:00:00Z"
+  },
+  {
+    "name": "Acer Nitro 5",
+    "image": "https://example.com/images/acernitro5.jpg",
+    "description": "Gaming laptop with Intel Core i5 and GTX 1650 graphics.",
+    "price": 120000,
+    "category": "Laptop",
+    "brand": "Acer",
+    "ratings": 4.7,
+    "createdAt": "2024-08-06T09:00:00Z"
+  },
+  {
+    "name": "Canon EOS R6",
+    "image": "https://example.com/images/canoneosr6.jpg",
+    "description": "Full-frame mirrorless camera with 20MP resolution and 4K video.",
+    "price": 250000,
+    "category": "Camera",
+    "brand": "Canon",
+    "ratings": 4.9,
+    "createdAt": "2024-08-03T14:00:00Z"
+  },
+  {
+    "name": "Apple AirPods Max",
+    "image": "https://example.com/images/airpodsmax.jpg",
+    "description": "High-fidelity over-ear headphones with active noise cancellation.",
+    "price": 60000,
+    "category": "Headphone",
+    "brand": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-04T10:00:00Z"
+  },
+  {
+    "name": "Xiaomi Mi Band 7",
+    "image": "https://example.com/images/miband7.jpg",
+    "description": "Fitness band with AMOLED display and heart rate monitoring.",
+    "price": 5000,
+    "category": "Wearable",
+    "brand": "Xiaomi",
+    "ratings": 4.6,
+    "createdAt": "2024-08-05T11:00:00Z"
+  },
+  {
+    "name": "Harman Kardon Onyx Studio 7",
+    "image": "https://example.com/images/harmankardononyx7.jpg",
+    "description": "Bluetooth speaker with premium sound quality and elegant design.",
+    "price": 30000,
+    "category": "Speaker",
+    "brand": "Harman Kardon",
+    "ratings": 4.7,
+    "createdAt": "2024-08-13T09:00:00Z"
+  },
+  {
+    "name": "BenQ ZOWIE XL2546",
+    "image": "https://example.com/images/benqzowie.jpg",
+    "description": "Gaming monitor with 240Hz refresh rate and G-Sync support.",
+    "price": 40000,
+    "category": "Monitor",
+    "brand": "BenQ",
+    "ratings": 4.8,
+    "createdAt": "2024-08-14T11:00:00Z"
+  },
+  {
+    "name": "Google Pixel 7",
+    "image": "https://example.com/images/pixel7.jpg",
+    "description": "Flagship smartphone with Google Tensor chip and 5G support.",
+    "price": 70000,
+    "category": "Mobile Phone",
+    "brand": "Google",
+    "ratings": 4.8,
+    "createdAt": "2024-08-07T15:00:00Z"
+  },
+  {
+    "name": "XPS 17 9720",
+    "image": "https://example.com/images/xps179720.jpg",
+    "description": "High-performance 17-inch laptop with Intel Core i9 and RTX 3080.",
+    "price": 250000,
+    "category": "Laptop",
+    "brand": "Dell",
+    "ratings": 4.9,
+    "createdAt": "2024-08-16T10:00:00Z"
+  },
+  {
+    "name": "Corsair K95 RGB Platinum",
+    "image": "https://example.com/images/corsairk95.jpg",
+    "description": "Mechanical keyboard with customizable RGB lighting and macro keys.",
+    "price": 20000,
+    "category": "Accessory",
+    "brand": "Corsair",
+    "ratings": 4.8,
+    "createdAt": "2024-08-12T14:00:00Z"
+  },
+  {
+    "name": "JBL PartyBox 310",
+    "image": "https://example.com/images/jblpartybox310.jpg",
+    "description": "Portable party speaker with powerful sound and light effects.",
+    "price": 35000,
+    "category": "Speaker",
+    "brand": "JBL",
+    "ratings": 4.7,
+    "createdAt": "2024-08-11T12:00:00Z"
+  },
+  {
+    "name": "Google Nest Cam (Battery)",
+    "image": "https://example.com/images/googlenestcam.jpg",
+    "description": "Battery-powered security camera with HD video and smart alerts.",
+    "price": 22000,
+    "category": "Smart Home",
+    "brand": "Google",
+    "ratings": 4.8,
+    "createdAt": "2024-08-09T10:00:00Z"
+  },
+  {
+    "name": "Oculus Rift S",
+    "image": "https://example.com/images/oculusrifts.jpg",
+    "description": "PC VR headset with high-resolution display and built-in tracking.",
+    "price": 40000,
+    "category": "VR Headset",
+    "brand": "Oculus",
+    "ratings": 4.7,
+    "createdAt": "2024-08-07T17:00:00Z"
+  },
+  {
+    "name": "Dell Ultrasharp U2720Q",
+    "image": "https://example.com/images/dellultrasharp.jpg",
+    "description": "27-inch 4K monitor with USB-C connectivity and wide color coverage.",
+    "price": 45000,
+    "category": "Monitor",
+    "brand": "Dell",
+    "ratings": 4.8,
+    "createdAt": "2024-08-06T11:00:00Z"
+  },
+  {
+    "name": "Sony A7C",
+    "image": "https://example.com/images/sonya7c.jpg",
+    "description": "Compact full-frame mirrorless camera with 24MP resolution and 4K video.",
+    "price": 200000,
+    "category": "Camera",
+    "brand": "Sony",
+    "ratings": 4.7,
+    "createdAt": "2024-08-05T10:00:00Z"
+  },
+  {
+    "name": "Logitech G502 HERO",
+    "image": "https://example.com/images/logitechg502.jpg",
+    "description": "High-performance gaming mouse with customizable buttons and RGB lighting.",
+    "price": 12000,
+    "category": "Accessory",
+    "brand": "Logitech",
+    "ratings": 4.8,
+    "createdAt": "2024-08-08T14:00:00Z"
+  },
+  {
+    "name": "Apple iMac 24-inch",
+    "image": "https://example.com/images/imac24inch.jpg",
+    "description": "All-in-one desktop with Apple's M1 chip and vibrant 24-inch display.",
+    "price": 180000,
+    "category": "Desktop",
+    "brand": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-13T12:00:00Z"
+  },
+  {
+    "name": "Huawei FreeBuds Pro",
+    "image": "https://example.com/images/huaweifreebudspro.jpg",
+    "description": "True wireless earbuds with active noise cancellation and premium sound.",
+    "price": 20000,
+    "category": "Headphone",
+    "brand": "Huawei",
+    "ratings": 4.7,
+    "createdAt": "2024-08-15T16:00:00Z"
+  },
+  {
+    "name": "Nikon Z50",
+    "image": "https://example.com/images/nikonz50.jpg",
+    "description": "Compact mirrorless camera with 20.9MP sensor and 4K video.",
+    "price": 150000,
+    "category": "Camera",
+    "brand": "Nikon",
+    "ratings": 4.8,
+    "createdAt": "2024-08-04T09:00:00Z"
+  },
+  {
+    "name": "Razer Naga X",
+    "image": "https://example.com/images/razernagax.jpg",
+    "description": "Gaming mouse with 16 programmable buttons and lightweight design.",
+    "price": 12000,
+    "category": "Accessory",
+    "brand": "Razer",
+    "ratings": 4.7,
+    "createdAt": "2024-08-01T14:00:00Z"
+  },
+  {
+    "name": "HP Omen 17",
+    "image": "https://example.com/images/hpomen17.jpg",
+    "description": "Gaming laptop with Intel Core i9, RTX 3070, and 17-inch display.",
+    "price": 220000,
+    "category": "Laptop",
+    "brand": "HP",
+    "ratings": 4.9,
+    "createdAt": "2024-08-10T12:00:00Z"
+  },
+  {
+    "name": "Dell S3221QS",
+    "image": "https://example.com/images/dells3221qs.jpg",
+    "description": "32-inch curved 4K monitor with HDR support and high contrast.",
+    "price": 45000,
+    "category": "Monitor",
+    "brand": "Dell",
+    "ratings": 4.7,
+    "createdAt": "2024-08-05T16:00:00Z"
+  },
+  {
+    "name": "Jabra Elite 75t",
+    "image": "https://example.com/images/jabraelite75t.jpg",
+    "description": "True wireless earbuds with secure fit and good sound quality.",
+    "price": 15000,
+    "category": "Headphone",
+    "brand": "Jabra",
+    "ratings": 4.8,
+    "createdAt": "2024-08-06T13:00:00Z"
+  }
+]
