@@ -36,7 +36,7 @@ const ProductList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/productAll', {
+        const { data } = await axios.get('https://scic-task-server-tau.vercel.app/productAll', {
           params: {
             page: currentPage,
             limit: 10,

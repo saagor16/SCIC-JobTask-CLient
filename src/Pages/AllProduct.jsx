@@ -1,22 +1,22 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const AllProduct = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [priceRange, setPriceRange] = useState({ min: 0, max: 1000000 });
-  const [sortOrder, setSortOrder] = useState('desc'); // 'desc' for Newest, 'asc' for Oldest
+  const [sortOrder, setSortOrder] = useState("desc"); // 'desc' for Newest, 'asc' for Oldest
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/productAll');
+        const { data } = await axios.get("https://scic-task-server-tau.vercel.app/productAll");
         setProducts(data.products);
         setFilteredProducts(data.products);
       } catch (error) {
-        console.error('Error fetching products:', error);
+        console.error("Error fetching products:", error);
       }
     };
     fetchProducts();
@@ -25,15 +25,15 @@ const AllProduct = () => {
   useEffect(() => {
     // Filter and sort products based on price and sort order
     const filterAndSortProducts = () => {
-      let filtered = products.filter((product) => (
-        product.price >= priceRange.min &&
-        product.price <= priceRange.max
-      ));
+      let filtered = products.filter(
+        (product) =>
+          product.price >= priceRange.min && product.price <= priceRange.max
+      );
 
       filtered.sort((a, b) => {
         const dateA = new Date(a.createdAt);
         const dateB = new Date(b.createdAt);
-        return sortOrder === 'desc' ? dateB - dateA : dateA - dateB;
+        return sortOrder === "desc" ? dateB - dateA : dateA - dateB;
       });
 
       setFilteredProducts(filtered);
@@ -54,27 +54,37 @@ const AllProduct = () => {
       <div className="bg-white p-4 rounded-lg shadow-md mb-6">
         <div className="flex flex-wrap gap-4 mb-4">
           <div className="flex items-center">
-            <label htmlFor="minPrice" className="mr-2 text-gray-700">Min Price:</label>
+            <label htmlFor="minPrice" className="mr-2 text-gray-700">
+              Min Price:
+            </label>
             <input
               id="minPrice"
               type="number"
               value={priceRange.min}
-              onChange={(e) => setPriceRange({ ...priceRange, min: e.target.value })}
+              onChange={(e) =>
+                setPriceRange({ ...priceRange, min: e.target.value })
+              }
               className="border p-2 rounded"
             />
           </div>
           <div className="flex items-center">
-            <label htmlFor="maxPrice" className="mr-2 text-gray-700">Max Price:</label>
+            <label htmlFor="maxPrice" className="mr-2 text-gray-700">
+              Max Price:
+            </label>
             <input
               id="maxPrice"
               type="number"
               value={priceRange.max}
-              onChange={(e) => setPriceRange({ ...priceRange, max: e.target.value })}
+              onChange={(e) =>
+                setPriceRange({ ...priceRange, max: e.target.value })
+              }
               className="border p-2 rounded"
             />
           </div>
           <div className="flex items-center">
-            <label htmlFor="sortOrder" className="mr-2 text-gray-700">Sort by Date:</label>
+            <label htmlFor="sortOrder" className="mr-2 text-gray-700">
+              Sort by Date:
+            </label>
             <select
               id="sortOrder"
               value={sortOrder}
@@ -108,7 +118,11 @@ const AllProduct = () => {
               <tr key={product._id} className="border-b border-gray-200">
                 <td className="p-3">{startIndex + index + 1}</td>
                 <td className="p-3">
-                  <img src={product.image} alt={product.name} className="w-20 h-20 object-cover rounded" />
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-20 h-20 object-cover rounded"
+                  />
                 </td>
                 <td className="p-3">{product.name}</td>
                 <td className="p-3">{product.description}</td>
@@ -116,7 +130,9 @@ const AllProduct = () => {
                 <td className="p-3">{product.category}</td>
                 <td className="p-3">{product.brand}</td>
                 <td className="p-3">{product.ratings}</td>
-                <td className="p-3">{new Date(product.createdAt).toLocaleDateString()}</td>
+                <td className="p-3">
+                  {new Date(product.createdAt).toLocaleDateString()}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -131,7 +147,14 @@ const AllProduct = () => {
           Previous
         </button>
         <button
-          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(filteredProducts.length / itemsPerPage)))}
+          onClick={() =>
+            setCurrentPage((prev) =>
+              Math.min(
+                prev + 1,
+                Math.ceil(filteredProducts.length / itemsPerPage)
+              )
+            )
+          }
           className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md"
         >
           Next
