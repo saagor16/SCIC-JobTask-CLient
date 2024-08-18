@@ -251,7 +251,7 @@
   },
   {
     "name": "Logitech MX Master 3",
-    "image": "https://example.com/images/logitechmxmaster3.jpg",
+    "image": "https://images.unsplash.com/photo-1701486822668-84a4bd93b059?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9naXRlY2glMjBteCUyMG1hc3RlciUyMDMlMjBBY2Nlc3Nvcnl8ZW58MHx8MHx8fDA%3D",
     "description": "Ergonomic wireless mouse with customizable buttons and precision tracking.",
     "price": 12000,
     "category": "Accessory",
@@ -261,7 +261,7 @@
   },
   {
     "name": "Razer BlackWidow V3",
-    "image": "https://example.com/images/razerblackwidowv3.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1675894810423-b263f7b89016?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8UmF6ZXIlMjBCbGFja1dpZG93JTIwVjN8ZW58MHx8MHx8fDA%3D",
     "description": "Mechanical gaming keyboard with customizable RGB lighting.",
     "price": 16000,
     "category": "Accessory",
@@ -271,7 +271,7 @@
   },
   {
     "name": "Sonos One",
-    "image": "https://example.com/images/sonosone.jpg",
+    "image": "https://images.unsplash.com/photo-1531104985437-603d6490e6d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U29ub3MlMjBPbmUlMjBzcGVha2VyfGVufDB8fDB8fHww",
     "description": "Smart speaker with rich sound and voice assistant support.",
     "price": 19000,
     "category": "Speaker",
@@ -281,7 +281,7 @@
   },
   {
     "name": "HP Spectre x360",
-    "image": "https://example.com/images/hpspectrex360.jpg",
+    "image": "https://images.unsplash.com/photo-1599299009482-3b5326fc52e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SFAlMjBTcGVjdHJlJTIweDM2MCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Convertible laptop with Intel Core i7, 16GB RAM, and 1TB SSD.",
     "price": 180000,
     "category": "Laptop",
@@ -291,7 +291,7 @@
   },
   {
     "name": "Dell Inspiron 15",
-    "image": "https://example.com/images/dellinspiron15.jpg",
+    "image": "https://images.unsplash.com/photo-1452457750107-cd084dce177d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RGVsbCUyMEluc3Bpcm9uJTIwMTUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D",
     "description": "15-inch laptop with Intel Core i5 and 512GB SSD.",
     "price": 100000,
     "category": "Laptop",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Amazon Kindle Paperwhite",
-    "image": "https://example.com/images/kindlepaperwhite.jpg",
+    "image": "https://images.unsplash.com/photo-1607041409099-bd92431680a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QW1hem9uJTIwS2luZGxlJTIwUGFwZXJ3aGl0ZXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "E-reader with a high-resolution display and waterproof design.",
     "price": 12000,
     "category": "E-reader",
@@ -311,7 +311,7 @@
   },
   {
     "name": "JBL Charge 5",
-    "image": "https://example.com/images/jblcharge5.jpg",
+    "image": "https://images.unsplash.com/photo-1618275648002-9758fc97dbf5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SkJMJTIwQ2hhcmdlJTIwNSUyMHNwZWFrZXJ8ZW58MHx8MHx8fDA%3D",
     "description": "Portable Bluetooth speaker with deep bass and long battery life.",
     "price": 20000,
     "category": "Speaker",
@@ -321,7 +321,7 @@
   },
   {
     "name": "ASUS ROG Zephyrus G14",
-    "image": "https://example.com/images/rogzephyrusg14.jpg",
+    "image": "https://images.unsplash.com/photo-1531063626275-e6680b864755?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QVNVUyUyMFJPRyUyMFplcGh5cnVzJTIwRzE0fGVufDB8fDB8fHww",
     "description": "Gaming laptop with AMD Ryzen 9 and NVIDIA RTX 3060.",
     "price": 200000,
     "category": "Laptop",
@@ -331,7 +331,7 @@
   },
   {
     "name": "Mac Mini M2",
-    "image": "https://example.com/images/macminim2.jpg",
+    "image": "https://media.istockphoto.com/id/1182216378/photo/industrial-line-for-recycling-of-old-household-appliances-electronics-and-cables.webp?b=1&s=612x612&w=0&k=20&c=A9YBGPoIVoHzrHmONWKFSeIXdEGWgvQYl6YLKnsOsWY=",
     "description": "Compact desktop with Apple's M2 chip and 512GB SSD.",
     "price": 130000,
     "category": "Desktop",
@@ -341,7 +341,7 @@
   },
   {
     "name": "Roku Streaming Stick 4K",
-    "image": "https://example.com/images/rokustick4k.jpg",
+    "image": "https://images.unsplash.com/photo-1457523054379-8d03ab9fc2aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Um9rdSUyMFN0cmVhbWluZyUyMFN0aWNrJTIwNEt8ZW58MHx8MHx8fDA%3D",
     "description": "Streaming device with 4K HDR support and voice remote.",
     "price": 8000,
     "category": "Streaming Device",
@@ -351,7 +351,7 @@
   },
   {
     "name": "Corsair Vengeance LPX 16GB",
-    "image": "https://example.com/images/corsairvengeance.jpg",
+    "image": "https://images.unsplash.com/photo-1704871132546-d1d3b845ae65?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "16GB DDR4 RAM with high performance and overclocking support.",
     "price": 8000,
     "category": "Computer Component",
@@ -361,7 +361,7 @@
   },
   {
     "name": "WD My Passport 1TB",
-    "image": "https://example.com/images/wdpassport1tb.jpg",
+    "image": "https://images.unsplash.com/photo-1553697388-94e804e2f0f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFdEJTIwTXklMjBQYXNzcG9ydCUyMDFUQiUyMHN0b3JlYWdlfGVufDB8fDB8fHww",
     "description": "Portable external hard drive with 1TB capacity and password protection.",
     "price": 7000,
     "category": "Storage",
@@ -371,7 +371,7 @@
   },
   {
     "name": "Google Nest Hub",
-    "image": "https://example.com/images/googlenesthub.jpg",
+    "image": "https://images.unsplash.com/photo-1651559038978-7079d2300016?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R29vZ2xlJTIwTmVzdCUyMEh1YnxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Smart display with Google Assistant and home automation control.",
     "price": 12000,
     "category": "Smart Home",
@@ -381,7 +381,7 @@
   },
   {
     "name": "Sony WH-XB910N",
-    "image": "https://example.com/images/sonywhxb910n.jpg",
+    "image": "https://images.unsplash.com/photo-1632803227975-b6a5688c9c46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U29ueSUyMFdIJTIwWEI5MTBOfGVufDB8fDB8fHww",
     "description": "Extra bass noise-canceling headphones with long battery life.",
     "price": 30000,
     "category": "Headphone",
@@ -391,7 +391,7 @@
   },
   {
     "name": "Acer Nitro 5",
-    "image": "https://example.com/images/acernitro5.jpg",
+    "image": "https://images.unsplash.com/photo-1522198428577-adf2d374b05b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWNlciUyMG5pdHJvJTIwNXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Gaming laptop with Intel Core i5 and GTX 1650 graphics.",
     "price": 120000,
     "category": "Laptop",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Canon EOS R6",
-    "image": "https://example.com/images/canoneosr6.jpg",
+    "image": "https://images.unsplash.com/photo-1520549233664-03f65c1d1327?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENhbm9uJTIwRU9TJTIwUjYlMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D",
     "description": "Full-frame mirrorless camera with 20MP resolution and 4K video.",
     "price": 250000,
     "category": "Camera",
@@ -411,7 +411,7 @@
   },
   {
     "name": "Apple AirPods Max",
-    "image": "https://example.com/images/airpodsmax.jpg",
+    "image": "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENBcHBsZSUyMEFpclBvZHMlMjBNYXh8ZW58MHx8MHx8fDA%3D",
     "description": "High-fidelity over-ear headphones with active noise cancellation.",
     "price": 60000,
     "category": "Headphone",
@@ -421,7 +421,7 @@
   },
   {
     "name": "Xiaomi Mi Band 7",
-    "image": "https://example.com/images/miband7.jpg",
+    "image": "https://media.istockphoto.com/id/1405055290/photo/close-up-white-smart-watch-with-icon-heart-rate-healthcare-concept.jpg?s=612x612&w=is&k=20&c=8c4IcAeh1oUlLRu9QG2GFcijhsn5UDWx-Sx23_uf-zI=",
     "description": "Fitness band with AMOLED display and heart rate monitoring.",
     "price": 5000,
     "category": "Wearable",
@@ -431,7 +431,7 @@
   },
   {
     "name": "Harman Kardon Onyx Studio 7",
-    "image": "https://example.com/images/harmankardononyx7.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1677159499898-b061fb5bd2d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGFybWFuJTIwS2FyZG9uJTIwT255eCUyMFN0dWRpbyUyMDclMjBzcGVha2VyfGVufDB8fDB8fHww",
     "description": "Bluetooth speaker with premium sound quality and elegant design.",
     "price": 30000,
     "category": "Speaker",
@@ -441,7 +441,7 @@
   },
   {
     "name": "BenQ ZOWIE XL2546",
-    "image": "https://example.com/images/benqzowie.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1669380425564-6e1a281a4d30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmVuUSUyMFpPV0lFJTIwWEwyNTQ2JTIwbW9uaXRvcnxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Gaming monitor with 240Hz refresh rate and G-Sync support.",
     "price": 40000,
     "category": "Monitor",
@@ -451,7 +451,7 @@
   },
   {
     "name": "Google Pixel 7",
-    "image": "https://example.com/images/pixel7.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1720003786191-d27aa44ea35b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8R29vZ2xlJTIwUGl4ZWwlMjA3JTIwbW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D",
     "description": "Flagship smartphone with Google Tensor chip and 5G support.",
     "price": 70000,
     "category": "Mobile Phone",
@@ -461,7 +461,7 @@
   },
   {
     "name": "XPS 17 9720",
-    "image": "https://example.com/images/xps179720.jpg",
+    "image": "https://images.unsplash.com/photo-1499914485622-a88fac536970?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8WFBTJTIwMTclMjA5NzIwJTIwbGFwdG9wfGVufDB8fDB8fHww",
     "description": "High-performance 17-inch laptop with Intel Core i9 and RTX 3080.",
     "price": 250000,
     "category": "Laptop",
@@ -540,18 +540,8 @@
     "createdAt": "2024-08-08T14:00:00Z"
   },
   {
-    "name": "Apple iMac 24-inch",
-    "image": "https://example.com/images/imac24inch.jpg",
-    "description": "All-in-one desktop with Apple's M1 chip and vibrant 24-inch display.",
-    "price": 180000,
-    "category": "Desktop",
-    "brand": "Apple",
-    "ratings": 4.9,
-    "createdAt": "2024-08-13T12:00:00Z"
-  },
-  {
     "name": "Huawei FreeBuds Pro",
-    "image": "https://example.com/images/huaweifreebudspro.jpg",
+    "image": "https://images.unsplash.com/photo-1532778597765-a2a1c4dda1ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SHVhd2VpJTIwRnJlZUJ1ZHMlMjBQcm8lMjBoZWFkcGhvbmV8ZW58MHx8MHx8fDA%3D",
     "description": "True wireless earbuds with active noise cancellation and premium sound.",
     "price": 20000,
     "category": "Headphone",
@@ -561,7 +551,7 @@
   },
   {
     "name": "Nikon Z50",
-    "image": "https://example.com/images/nikonz50.jpg",
+    "image": "https://images.unsplash.com/photo-1515519128511-cbd81859fa91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE5pa29uJTIwWjUwJTIwY2FtZXJhfGVufDB8fDB8fHww",
     "description": "Compact mirrorless camera with 20.9MP sensor and 4K video.",
     "price": 150000,
     "category": "Camera",
@@ -571,7 +561,7 @@
   },
   {
     "name": "Razer Naga X",
-    "image": "https://example.com/images/razernagax.jpg",
+    "image": "https://images.unsplash.com/photo-1706750682978-52a2c5c9263d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFJhemVyJTIwTmFnYSUyMFh8ZW58MHx8MHx8fDA%3D",
     "description": "Gaming mouse with 16 programmable buttons and lightweight design.",
     "price": 12000,
     "category": "Accessory",
@@ -581,7 +571,7 @@
   },
   {
     "name": "HP Omen 17",
-    "image": "https://example.com/images/hpomen17.jpg",
+    "image": "https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEhQJTIwT21lbiUyMDE3JTIwbGFwdG9wfGVufDB8fDB8fHww",
     "description": "Gaming laptop with Intel Core i9, RTX 3070, and 17-inch display.",
     "price": 220000,
     "category": "Laptop",
@@ -591,7 +581,7 @@
   },
   {
     "name": "Dell S3221QS",
-    "image": "https://example.com/images/dells3221qs.jpg",
+    "image": "https://images.unsplash.com/photo-1558864559-ed673ba3610b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVsbHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "32-inch curved 4K monitor with HDR support and high contrast.",
     "price": 45000,
     "category": "Monitor",
@@ -601,7 +591,7 @@
   },
   {
     "name": "Jabra Elite 75t",
-    "image": "https://example.com/images/jabraelite75t.jpg",
+    "image": "https://images.unsplash.com/photo-1594917292821-aa47b83af127?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SmFicmElMjBFbGl0ZSUyMDc1dHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "True wireless earbuds with secure fit and good sound quality.",
     "price": 15000,
     "category": "Headphone",
