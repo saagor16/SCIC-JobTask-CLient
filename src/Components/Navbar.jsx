@@ -50,17 +50,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link to="/products" className="text-white hover:text-gray-200">
-          Products
-        </Link>
-      </li>
-      <li>
-        <Link to="/about" className="text-white hover:text-gray-200">
-          About
-        </Link>
-      </li>
-      <li>
-        <Link to="/contact" className="text-white hover:text-gray-200">
-          Contact
+          Product
         </Link>
       </li>
     </>
