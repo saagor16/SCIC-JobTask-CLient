@@ -36,7 +36,7 @@ const ProductList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/productUp', {
+        const { data } = await axios.get('http://localhost:5000/productAll', {
           params: {
             page: currentPage,
             limit: 10,

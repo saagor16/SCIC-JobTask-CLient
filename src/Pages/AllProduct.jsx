@@ -12,7 +12,7 @@ const AllProduct = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/productUp');
+        const { data } = await axios.get('http://localhost:5000/productAll');
         setProducts(data.products);
         setFilteredProducts(data.products);
       } catch (error) {
