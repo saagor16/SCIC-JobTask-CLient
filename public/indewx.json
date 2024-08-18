@@ -1,7 +1,7 @@
 [
   {
     "name": "Galaxy Z Fold 5",
-    "image": "https://unsplash.com/photos/person-holding-white-android-smartphone-sPxk3zxpQ08",
+    "image": "https://images.unsplash.com/photo-1628744398863-1877b197f2cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Foldable smartphone with a 7.6-inch AMOLED display and Snapdragon 8 Gen 2.",
     "price": 190000,
     "category": "Mobile Phone",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Pixel Buds Pro",
-    "image": "https://example.com/images/pixelbudspro.jpg",
+    "image": "https://images.unsplash.com/photo-1662348316397-7afeb1045fd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGl4ZWwlMjBCdWRzJTIwUHJvfGVufDB8fDB8fHww",
     "description": "Wireless earbuds with active noise cancellation and Google Assistant integration.",
     "price": 15000,
     "category": "Headphone",
@@ -21,7 +21,7 @@
   },
   {
     "name": "LG Gram 17",
-    "image": "https://example.com/images/lggram17.jpg",
+    "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TEclMjBHcmFtJTIwMTclMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D",
     "description": "Lightweight 17-inch laptop with Intel Core i7 and 1TB SSD.",
     "price": 200000,
     "category": "Laptop",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Sony A7R V",
-    "image": "https://example.com/images/sonya7rv.jpg",
+    "image": "https://images.unsplash.com/photo-1457608135803-4827addc43e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U29ueSUyMEE3UiUyMFYlMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D",
     "description": "High-resolution full-frame mirrorless camera with 61MP sensor and 8K video.",
     "price": 400000,
     "category": "Camera",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Bose QuietComfort Earbuds",
-    "image": "https://example.com/images/bosequietcomfort.jpg",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Qm9zZSUyMFF1aWV0Q29tZm9ydCUyMEVhcmJ1ZHN8ZW58MHx8MHx8fDA%3D",
     "description": "True wireless earbuds with excellent noise cancellation and comfortable fit.",
     "price": 25000,
     "category": "Headphone",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Apple Watch Series 8",
-    "image": "https://example.com/images/applewatch8.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1712999654688-81086e494bf1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QXBwbGUlMjBXYXRjaCUyMFNlcmllcyUyMDglMjB3ZWFyYmxlfGVufDB8fDB8fHww",
     "description": "Smartwatch with advanced health features and fitness tracking.",
     "price": 45000,
     "category": "Wearable",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Dell XPS 13",
-    "image": "https://example.com/images/dellxps13.jpg",
+    "image": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fERlbGwlMjBYUFMlMjAxMyUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Ultra-thin laptop with Intel Core i7 and 512GB SSD.",
     "price": 160000,
     "category": "Laptop",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Samsung QLED TV",
-    "image": "https://example.com/images/samsungqled.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1687840715542-e8478cd78439?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2Ftc3VuZyUyMFFMRUQlMjBUVnxlbnwwfHwwfHx8MA%3D%3D",
     "description": "4K QLED TV with vibrant colors and HDR support.",
     "price": 120000,
     "category": "Television",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Nikon D850",
-    "image": "https://example.com/images/nikond850.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1710961233810-5350d81d4b20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Tmlrb24lMjBEODUwJTIwY2FtZXJhfGVufDB8fDB8fHww",
     "description": "Full-frame DSLR camera with 45.7MP resolution and 4K video.",
     "price": 280000,
     "category": "Camera",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Amazon Echo Studio",
-    "image": "https://example.com/images/echostudio.jpg",
+    "image": "https://images.unsplash.com/photo-1621274147744-cfb5694bb233?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QW1hem9uJTIwRWNobyUyMFN0dWRpbyUyMHNwZWtlcnxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Smart speaker with high-fidelity sound and Alexa integration.",
     "price": 22000,
     "category": "Speaker",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Fitbit Charge 5",
-    "image": "https://example.com/images/fitbitcharge5.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1675317511849-aaa74fa1f8da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Rml0Yml0JTIwQ2hhcmdlJTIwNSUyMHdlYXJhYmxlfGVufDB8fDB8fHww",
     "description": "Fitness tracker with GPS, heart rate monitoring, and long battery life.",
     "price": 12000,
     "category": "Wearable",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Sony WH-1000XM5",
-    "image": "https://example.com/images/sonywh1000xm5.jpg",
+    "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U29ueSUyMFdIJTIwMTAwMFhNNXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Noise-canceling over-ear headphones with superior sound quality.",
     "price": 30000,
     "category": "Headphone",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Microsoft Surface Pro 9",
-    "image": "https://example.com/images/surfacepro9.jpg",
+    "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWljcm9zb2Z0JTIwU3VyZmFjZSUyMFBybyUyMDklMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D",
     "description": "2-in-1 laptop with detachable keyboard and Intel Core i7.",
     "price": 180000,
     "category": "Laptop",
@@ -131,7 +131,7 @@
   },
   {
     "name": "Oculus Quest 2",
-    "image": "https://example.com/images/oculusquest2.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1710522641116-64da736651c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8T2N1bHVzJTIwUXVlc3QlMjAyfGVufDB8fDB8fHww",
     "description": "Standalone VR headset with immersive virtual reality experiences.",
     "price": 35000,
     "category": "VR Headset",
@@ -141,7 +141,7 @@
   },
   {
     "name": "Bose SoundLink Revolve+",
-    "image": "https://example.com/images/bosesoundlinkrevolve.jpg",
+    "image": "https://images.unsplash.com/photo-1510157059722-9c3c2175ed1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Qm9zZSUyMFNvdW5kTGluayUyMFJldm9sdmV8ZW58MHx8MHx8fDA%3D",
     "description": "Portable Bluetooth speaker with 360-degree sound.",
     "price": 20000,
     "category": "Speaker",
@@ -151,7 +151,7 @@
   },
   {
     "name": "GoPro HERO11 Black",
-    "image": "https://example.com/images/goprohero11black.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1667538961167-2f0ab7a5046e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R29Qcm8lMjBIRVJPMTElMjBCbGFjayUyMGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Action camera with 5.3K video recording and HyperSmooth stabilization.",
     "price": 40000,
     "category": "Camera",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Apple MacBook Air M2",
-    "image": "https://example.com/images/macbookairm2.jpg",
+    "image": "https://images.unsplash.com/photo-1717865499857-ec35ce6e65fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QXBwbGUlMjBNYWNCb29rJTIwQWlyJTIwTTIlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D",
     "description": "Thin and light laptop with Apple's M2 chip and 256GB SSD.",
     "price": 150000,
     "category": "Laptop",
@@ -171,7 +171,7 @@
   },
   {
     "name": "Jabra Elite 85t",
-    "image": "https://example.com/images/jabraelite85t.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1679513691485-711d030f7e94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SmFicmElMjBFbGl0ZSUyMDg1dCUyMGhlYWRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "True wireless earbuds with adjustable ANC and excellent sound quality.",
     "price": 22000,
     "category": "Headphone",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Samsung Galaxy Tab S9",
-    "image": "https://example.com/images/galaxytabs9.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1661344264771-e4fd859500a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U2Ftc3VuZyUyMEdhbGF4eSUyMFRhYiUyMFM5JTIwdGFibGV0fGVufDB8fDB8fHww",
     "description": "High-performance tablet with AMOLED display and S Pen support.",
     "price": 75000,
     "category": "Tablet",
@@ -191,7 +191,7 @@
   },
   {
     "name": "Epson EcoTank ET-2760",
-    "image": "https://example.com/images/epson2760.jpg",
+    "image": "https://images.unsplash.com/photo-1625961332771-3f40b0e2bdcf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RXBzb24lMjBFY29UYW5rJTIwRVQlMjAyNzYwfGVufDB8fDB8fHww",
     "description": "All-in-one printer with refillable ink tanks and wireless connectivity.",
     "price": 12000,
     "category": "Printer",
@@ -201,7 +201,7 @@
   },
   {
     "name": "Lenovo Yoga 9i",
-    "image": "https://example.com/images/lenovoyoga9i.jpg",
+    "image": "https://media.istockphoto.com/id/1282325681/photo/laptop-comfy-blanket-pillows-and-a-cup-of-tea-laying-on-an-unmade-bed-in-crumpled-sheets.jpg?s=612x612&w=is&k=20&c=pLed-NO0AFyZeB_xDXvS6FvkX0FyRNzOZtCWdHWRgGk=",
     "description": "Convertible laptop with 14-inch 4K display and Intel Core i7.",
     "price": 170000,
     "category": "Laptop",
@@ -211,7 +211,7 @@
   },
   {
     "name": "Apple iPad Pro 11",
-    "image": "https://example.com/images/ipadpro11.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1661342522661-b91c165a083c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXBwbGUlMjBpUGFkJTIwUHJvJTIwMTElMjB0YWJsZXR8ZW58MHx8MHx8fDA%3D",
     "description": "11-inch tablet with Apple M1 chip and ProMotion technology.",
     "price": 90000,
     "category": "Tablet",
@@ -221,7 +221,7 @@
   },
   {
     "name": "Acer Predator Helios 300",
-    "image": "https://example.com/images/predatorhelios300.jpg",
+    "image": "https://images.unsplash.com/photo-1522198798025-edbf00dabd6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QWNlciUyMFByZWRhdG9yJTIwSGVsaW9zJTIwMzAwfGVufDB8fDB8fHww",
     "description": "Gaming laptop with Intel Core i7, RTX 3060 GPU, and high refresh rate display.",
     "price": 150000,
     "category": "Laptop",
@@ -231,7 +231,7 @@
   },
   {
     "name": "Huawei MatePad Pro",
-    "image": "https://example.com/images/matepadpro.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1661347864629-76412a0eee40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SHVhd2VpJTIwTWF0ZVBhZCUyMFBybyUyMHRhYmxldHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Tablet with Kirin 9000 chip and magnetic keyboard support.",
     "price": 85000,
     "category": "Tablet",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Philips Hue White and Color Ambiance",
-    "image": "https://example.com/images/philips_hue.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1694161843792-c51e6ab165d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UGhpbGlwcyUyMEh1ZSUyMFdoaXRlJTIwYW5kJTIwQ29sb3IlMjBBbWJpYW5jZSUyMFNtYXJ0JTIwSG9tZXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Smart LED bulbs with color-changing capabilities and app control.",
     "price": 15000,
     "category": "Smart Home",
