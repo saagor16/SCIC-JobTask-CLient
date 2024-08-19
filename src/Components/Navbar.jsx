@@ -156,6 +156,7 @@ const Navbar = () => {
                   >
                     Logout
                   </button>
+                  
                 ) : (
                   <>
                     <Link to="/register">

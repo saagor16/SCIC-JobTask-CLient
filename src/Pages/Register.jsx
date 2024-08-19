@@ -5,9 +5,6 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AuthContext } from "../providers/AuthProvider";
 
-
-
-
 const Register = () => {
   const { registerUser, updateProfileInfo } = useContext(AuthContext);
 
@@ -37,7 +34,7 @@ const Register = () => {
     }
 
     try {
-      await registerUser(email, password, name, photoUrl);
+      await registerUser(email, password);
       await updateProfileInfo(name, photoUrl);
       toast.success("Registration successful!");
     } catch (error) {
@@ -46,19 +43,14 @@ const Register = () => {
     }
   };
 
-
-
-
   return (
     <div>
-      <div className="flex flex-col justify-center font-[sans-serif]  mt-20  p-4">
-        <div className="max-w-md w-full mx-auto border border-gray-300    rounded-lg p-6 shadow-xl transition-transform transform hover:scale-95">
+      <div className="flex flex-col justify-center font-[sans-serif] mt-20 p-4">
+        <div className="max-w-md w-full mx-auto border border-gray-300 rounded-lg p-6 shadow-xl transition-transform transform hover:scale-95">
           <div className="text-center mb-12">
-            <h4>register</h4>
+            <h4>Register</h4>
           </div>
-          <form
-           onSubmit={handleRegister}
-           >
+          <form onSubmit={handleRegister}>
             <div className="space-y-6">
               <div>
                 <label className="text-sm mb-2 block">Name</label>
@@ -91,12 +83,10 @@ const Register = () => {
                 <label className="text-sm mb-2 block">Password</label>
                 <input
                   name="password"
-                  type= "password"
+                  type="password"
                   className="bg-white border border-gray-300 w-full text-sm px-4 py-3 rounded-md outline-blue-500"
                   placeholder="Enter password"
                 />
-                
-              
               </div>
 
               <div className="flex items-center">
@@ -119,7 +109,7 @@ const Register = () => {
             </div>
             <div className="!mt-10">
               <button
-                type="button"
+                type="submit"
                 className="w-full py-3 px-4 text-sm font-semibold rounded text-white bg-blue-500 hover:bg-blue-600 focus:outline-none"
               >
                 Create an account
@@ -129,7 +119,6 @@ const Register = () => {
               Already have an account?{" "}
               <Link
                 to="/login"
-                href="javascript:void(0);"
                 className="text-blue-600 font-semibold hover:underline ml-1"
               >
                 Login here
