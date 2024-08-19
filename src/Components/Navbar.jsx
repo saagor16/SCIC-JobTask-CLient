@@ -86,40 +86,39 @@ const Navbar = () => {
           </Link>
         </div>
 
+        {/* Desktop Menu */}
         <div className="hidden lg:flex lg:items-center lg:space-x-6">
           <ul className="flex space-x-6">{navItems}</ul>
         </div>
 
         <div className="flex items-center space-x-4">
           {user ? (
-            <div className="flex items-center space-x-4">
-              <div className="relative">
-                <button
-                  className="text-white hover:text-gray-200"
-                  onClick={toggleDropdown}
+            <div className="relative">
+              <button
+                className="text-white hover:text-gray-200"
+                onClick={toggleDropdown}
+              >
+                <img
+                  src={user.photoURL || "/default-avatar.png"}
+                  alt={user.displayName}
+                  className="w-10 h-10 rounded-full"
+                />
+              </button>
+              {isOpen && (
+                <ul
+                  ref={dropdownRef}
+                  className="absolute right-0 mt-2 w-48 py-2 bg-white border border-gray-300 rounded-lg shadow-lg"
                 >
-                  <img
-                    src={user.photoURL || "/default-avatar.png"}
-                    alt={user.displayName}
-                    className="w-10 h-10 rounded-full"
-                  />
-                </button>
-                {isOpen && (
-                  <ul
-                    ref={dropdownRef}
-                    className="absolute right-0 mt-2 w-48 py-2 bg-white border border-gray-300 rounded-lg shadow-lg"
-                  >
-                    <li>
-                      <button
-                        onClick={handleLogOut}
-                        className="block px-4 py-2 text-gray-800 hover:bg-gray-100 w-full text-left"
-                      >
-                        Logout
-                      </button>
-                    </li>
-                  </ul>
-                )}
-              </div>
+                  <li>
+                    <button
+                      onClick={handleLogOut}
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 w-full text-left"
+                    >
+                      Logout
+                    </button>
+                  </li>
+                </ul>
+              )}
             </div>
           ) : (
             <div className="flex items-center gap-2">
@@ -139,7 +138,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="lg:hidden fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-75 flex flex-col items-center pt-12">
+          <div className="lg:hidden fixed inset-0 z-20 bg-gray-900 bg-opacity-75 flex flex-col items-center justify-center">
             <button
               className="text-white absolute top-4 right-4 text-2xl"
               onClick={toggleMenu}
