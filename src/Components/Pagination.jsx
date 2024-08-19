@@ -4,11 +4,11 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   return (
-    <div className="flex justify-center mt-4 ">
+    <div className="flex justify-center mt-4 flex-wrap gap-2">
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="px-4 py-2 bg-blue-500 text-white rounded mr-2"
+        className="px-3 py-1 bg-blue-500 text-white rounded disabled:opacity-50"
       >
         Previous
       </button>
@@ -16,7 +16,11 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <button
           key={page}
           onClick={() => onPageChange(page)}
-          className={`px-4 py-2 rounded mr-2 ${page === currentPage ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+          className={`px-3 py-1 rounded ${
+            page === currentPage
+              ? 'bg-blue-500 text-white'
+              : 'bg-gray-200 text-gray-800'
+          }`}
         >
           {page}
         </button>
@@ -24,7 +28,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="px-4 py-2 bg-blue-500 text-white rounded ml-2"
+        className="px-3 py-1 bg-blue-500 text-white rounded disabled:opacity-50"
       >
         Next
       </button>
