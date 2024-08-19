@@ -1,12 +1,14 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AuthContext } from "../providers/AuthProvider";
 
 const Register = () => {
   const { registerUser, updateProfileInfo } = useContext(AuthContext);
+  const navigate = useNavigate();
+
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -37,6 +39,7 @@ const Register = () => {
       await registerUser(email, password);
       await updateProfileInfo(name, photoUrl);
       toast.success("Registration successful!");
+      navigate(location?.state?.from || '/');
     } catch (error) {
       toast.error("Registration failed. Please try again later.");
       console.error(error);

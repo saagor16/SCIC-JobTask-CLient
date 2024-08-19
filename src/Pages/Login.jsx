@@ -1,39 +1,43 @@
-import { useContext } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import "./login.css";
-import { AuthContext } from "../providers/AuthProvider";
+// Login.jsx
+import { useContext } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './login.css';
+import { AuthContext } from '../providers/AuthProvider';
 
 const Login = () => {
   const { LogIn, googleLogin } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
+
   const handleLogin = async (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
-    const email = form.get("email");
-    const password = form.get("password");
+    const email = form.get('email');
+    const password = form.get('password');
 
     try {
       const result = await LogIn(email, password);
       console.log(result.user);
+      toast.success('Successfully logged in');
+      navigate(location?.state?.from || '/'); // Navigate to the previous page or home
     } catch (error) {
       console.error(error);
-      toast.error("Invalid email or password");
+      toast.error(error.message || 'Something went wrong');
     }
   };
-  const handleSocialLogin = (provider) => {
-    provider()
-      .then((result) => {
-        console.log(result.user);
-        toast("successfully logged in");
-        navigate(location?.state ? location.state : "/");
-      })
-      .catch((error) => {
-        toast.error("something went wrong");
-        console.log(error);
-      });
+
+  const handleSocialLogin = async (provider) => {
+    try {
+      const result = await provider();
+      console.log(result.user);
+      toast.success('Successfully logged in with social provider');
+      navigate(location?.state?.from || '/');
+    } catch (error) {
+      toast.error(error.message || 'Something went wrong');
+      console.log(error);
+    }
   };
 
   return (
@@ -43,21 +47,15 @@ const Login = () => {
           <div className="card2">
             <form className="form" onSubmit={handleLogin}>
               <p>Login</p>
-              <h2
-                id="heading"
-                className="mb-3 text-3xl font-semibold text-center"
-              >
+              <h2 id="heading" className="mb-3 text-3xl font-semibold text-center">
                 Login to your account
               </h2>
-              <p
-                id="heading"
-                className="text-sm text-center dark:text-gray-600"
-              >
-                Dont have account?
+              <p id="heading" className="text-sm text-center dark:text-gray-600">
+                Dont have an account?
                 <Link
                   to="/register"
                   rel="noopener noreferrer"
-                  className="focus:underline hover:underline text-blue-600 font-semibold  ml-1"
+                  className="focus:underline hover:underline text-blue-600 font-semibold ml-1"
                 >
                   Sign up here
                 </Link>
@@ -95,8 +93,9 @@ const Login = () => {
                   type="email"
                   name="email"
                   className="input-field"
-                  placeholder="email"
+                  placeholder="Email"
                   autoComplete="off"
+                  required
                 />
               </div>
               <div className="field">
@@ -115,6 +114,7 @@ const Login = () => {
                   name="password"
                   className="input-field"
                   placeholder="Password"
+                  required
                 />
               </div>
               <div>
