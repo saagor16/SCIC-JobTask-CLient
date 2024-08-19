@@ -22,8 +22,8 @@ const AuthProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   // Register a new user with email and password
-  const registerUser = (email, password) => {
-    return createUserWithEmailAndPassword(auth, email, password);
+  const registerUser = async (email, password) => {
+    await createUserWithEmailAndPassword(auth, email, password);
   };
 
   // Update the user's profile with a display name and photo URL
@@ -40,10 +40,9 @@ const AuthProvider = ({ children }) => {
   };
 
   // Sign in with email and password
-  const logIn = (email, password) => {
-    return signInWithEmailAndPassword(auth, email, password);
+  const logIn = async (email, password) => {
+    await signInWithEmailAndPassword(auth, email, password);
   };
-
   // Log out the current user
   const logOut = () => {
     return signOut(auth);
