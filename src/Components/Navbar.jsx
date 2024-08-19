@@ -50,7 +50,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link to="/products" className="text-white hover:text-gray-200">
-          Product
+          Products
         </Link>
       </li>
     </>
@@ -91,7 +91,8 @@ const Navbar = () => {
           <ul className="flex space-x-6">{navItems}</ul>
         </div>
 
-        <div className="flex items-center space-x-4">
+        {/* Auth Buttons */}
+        <div className="hidden lg:flex items-center space-x-4">
           {user ? (
             <div className="relative">
               <button
@@ -121,7 +122,7 @@ const Navbar = () => {
               )}
             </div>
           ) : (
-            <div className="flex items-center gap-2">
+            <div className="hidden lg:flex items-center gap-2">
               <Link to="/register">
                 <p className="bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700">
                   Register
@@ -145,7 +146,7 @@ const Navbar = () => {
             >
               &times;
             </button>
-            <ul className="flex flex-col space-y-4 text-white">
+            <ul className="flex flex-col space-y-4 text-white text-center">
               {navItems}
               <div className="flex flex-col items-center gap-4 mt-6">
                 {user ? (
